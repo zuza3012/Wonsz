@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wonsz"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="573.839" KeyDown="Window_KeyDown">
-    <Grid>
-        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="450"/>
-        <Button x:Name="startBtn" Content="Start" HorizontalAlignment="Left" Margin="469,31,0,0" VerticalAlignment="Top" Width="75" Click="Start_Clicked"/>
-        <RadioButton x:Name="eRbtn" Content="Easy" HorizontalAlignment="Left" Margin="469,91,0,0" VerticalAlignment="Top" IsChecked="True"/>
-        <RadioButton x:Name="mRbtn" Content="Medium" HorizontalAlignment="Left" Margin="469,130,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="hRbtn" Content="Hard" HorizontalAlignment="Left" Margin="469,163,0,0" VerticalAlignment="Top"/>
+        Title="MainWindow" Height="510" Width="583.839" KeyDown="Window_KeyDown">
+    <Grid Background="#FFA6996E">
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="454" Margin="10,10,0,0"/>
+        <Button x:Name="startBtn" Content="Start" HorizontalAlignment="Left" Margin="493,31,0,0" VerticalAlignment="Top" Width="63" Click="Start_Clicked"/>
+        <RadioButton x:Name="eRbtn" Content="Easy" HorizontalAlignment="Left" Margin="493,84,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <RadioButton x:Name="mRbtn" Content="Medium" HorizontalAlignment="Left" Margin="493,122,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="hRbtn" Content="Hard" HorizontalAlignment="Left" Margin="493,158,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
